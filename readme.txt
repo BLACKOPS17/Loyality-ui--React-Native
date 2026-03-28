@@ -1,0 +1,1 @@
+hey this my first react native project the ui is not build 
