@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Loyalty",
+    "slug": "Loyality",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/loyalty_logo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/loyalty_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loyalty.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/loyalty_logo.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.loyalty.app"
+    },
+    "web": {
+      "favicon": "./assets/loyalty_logo.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Loyalty to access your camera to capture memories."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Loyalty to access your photos to share memories."
+        }
+      ]
+    ]
+  }
+}
